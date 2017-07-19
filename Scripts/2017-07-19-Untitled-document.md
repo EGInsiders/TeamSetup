@@ -1,5 +1,5 @@
 ---
-title: Untitled document
+title: # Launching a New Path Team
 layout: post
 author: eduguidepfl
 permalink: /untitled-document/
@@ -51,4 +51,14 @@ And "Off" for Audio Reader
 And click "Save"
 
 Then I am taken to the "Invite" page
+
+### Send Invitation
+
+When I enter an email address into the field
+
+And click "Send Invite"
+
+Then I am taken to the team
+
+And the system responds, "An invitation email was sent to {recipient's email}. Once they accept their invitation they will be able to begin the team setup process."
 
