@@ -1,5 +1,5 @@
 ---
-title: # Launching a New Path Team
+title: Launching a New Path Team
 layout: post
 author: eduguidepfl
 permalink: /untitled-document/
