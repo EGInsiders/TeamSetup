@@ -1,5 +1,5 @@
 ---
-title: IT Contact completes IT testing Process - Failes Test
+title: IT Contact completes IT testing Process - Fails Test
 layout: post
 author: eduguidepfl
 permalink: /it-contact-completes-it-testing-process/
