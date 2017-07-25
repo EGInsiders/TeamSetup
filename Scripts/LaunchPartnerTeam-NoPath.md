@@ -26,7 +26,7 @@ When I enter in "Medium" for the minimum number of words required
 
 And "1" for Max new activities per day
 
-And "on" for Enabled
+And "off" for Enabled
 
 And "Core Learning" for Path
 
@@ -53,5 +53,3 @@ And click "Send Invite"
 Then I am taken to the team
 
 And the system responds, "An invitation email was sent to {recipient's email}. Once they accept their invitation they will be able to begin the team setup process."
-
-[Google Document](https://docs.google.com/document/d/1H9qx8fT7c6rxnEph4uydVgumA_u7leh-zxz4Dt2tL2g/edit?usp=sharing)
