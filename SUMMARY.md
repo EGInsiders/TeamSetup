@@ -5,8 +5,8 @@
 * 
 
 ## Scripts
-
+* [Contact Completes IT Testing](Scripts/20170616ITContactcompletesITtestingProcess.md)
 
 ## Invitations
-* [Initial Invitation from EduGuide](InitialInivitationfromEduGuide.md)
+[Invitation to Launch](InitialInivitationfromEduGuide.md)
 
