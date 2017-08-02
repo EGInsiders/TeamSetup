@@ -1,0 +1,64 @@
+---
+title: # Relaunch a Team
+layout: post
+author: eduguidepfl
+permalink: /#-relaunch-a-team/
+source-id: 186uAJMj6i68F_xjoKihUOabhnRh99sqmUjIN5h-H5Qc
+published: true
+---
+# Relaunch a Team
+
+## Initiate Team Relaunch
+
+Given that I am on the team settings page for the {Lansing School District}
+
+When I click on "Start Relaunch"
+
+Then I am taken to the Team Relaunch page
+
+## Set Subscription start/End Dates
+
+When I click "Default Extension Dates"
+
+Then the Subscription end date is changed to {June 30, 2017}
+
+## Submit Team Relaunch Form
+
+When I click "submit"
+
+Then I'm taken to the team’s Settings page
+
+And the system responds "Team has been relauched with entered settings"
+
+## Unarchive Student
+
+### Create a new group
+
+Given that I am on the Groups Management Page
+
+When I click on "Create Group"
+
+And enter the group title {Test Group B}
+
+And click "Save"
+
+Then the system responds, "Successfully created new group"
+
+And the group appears as a pending group
+
+### Assign archived student to group
+
+Given that the student is archived
+
+And I am on the group's detail page
+
+When I add {Noah Aguero} to the group
+
+Then the Add button becomes "Remove"
+
+And the student is added to the group
+
+And the student becomes active
+
+[Google Doc](https://docs.google.com/document/d/186uAJMj6i68F_xjoKihUOabhnRh99sqmUjIN5h-H5Qc/edit?usp=sharing)
+
