@@ -1,0 +1,188 @@
+---
+title: # Relaunching a team as an Admin Coach
+layout: post
+author: eduguidepfl
+permalink: /#-relaunching-a-team-as-an-admin-coach/
+source-id: 1pOztNmZvqhPw_tCkoD0rla4CivERSoMauxEZatlbkdo
+published: true
+---
+# Relaunching a team as an Admin Coach
+
+## Update Team Setup
+
+### Get Started
+
+When I click "Get Started"
+
+Then I'm taken to "Test IT"
+
+### Test IT
+
+When I enter in an email address
+
+And click "Save & Continue"
+
+Then the invitation modal appears
+
+#### IT Test Invitation Modal
+
+When I enter in an optional message
+
+And click "Send Invite"
+
+Then the modal clears
+
+And system responds, "Your IT testing invitations have been processed and necessary emails sent out."
+
+### Confirm Auto- Grouping
+
+When I click on "Autogroups On"
+
+Then "Autogroups On" becomes selected/active
+
+### Select Captain
+
+When I enter in an email address
+
+And click "Save & Continue"
+
+Then the invitation modal appears
+
+#### Captain Invitation Modal
+
+When I enter in an optional message
+
+And a start date
+
+And click "Send Invite"
+
+Then the modal clears
+
+And system responds, "Your team captain invitations have been processed and necessary emails sent out."
+
+### Invite Coaches
+
+When I enter in an email address
+
+And click "Save & Continue"
+
+Then the invitation modal appears
+
+#### Captain Invitation Modal
+
+When I enter in an optional message
+
+And a start date
+
+And click "Send Invite"
+
+Then the modal clears
+
+And system responds, "Your coach invitations have been processed and necessary emails sent out.."
+
+### Schedule Support
+
+When I click "Save Changes"
+
+Then my changes are saved
+
+### Start PD Path
+
+When I click on "Start PD Path"
+
+Then I am taken to my Path
+
+## Create New Group
+
+When I click "Create Group"
+
+Then the Group creation field appears
+
+When I enter {group name} into the group creation field
+
+And click "Save"
+
+Then the group is created
+
+And displayed in my list of pending groups
+
+## Unarchive Students
+
+Given that I am on the Groups Page
+
+When I click "Invite Members"
+
+Then I am taken to the Invitation page
+
+Given that I am on the Invitation page
+
+When I click on "View List"
+
+Then I am taken to the Edit Group page
+
+## Add Students to Group
+
+Given that I am on the Edit Group Page
+
+When I click on "Add" next to a students' name
+
+Then that student is added to group
+
+And the student is marked as active
+
+## Add students to the team/Group
+
+Given that I am on the invitation page for {Group Name}
+
+When I click on "Copy Address"
+
+Then the URL is copied to my clipboard
+
+# Join the Relaunched team as a student
+
+## Go to {URL}
+
+When I go to {https://staging.eduguide.org/join/?invitationCode=5228771}
+
+Then I am taken to the Decision Tree
+
+### Click on "No, Join"
+
+When I click on "No, Join"
+
+Then I am taken to the registration form
+
+### Register for the team
+
+When I enter in First Name {Dora}
+
+And Last Name {Jenker}
+
+And Email Address [{1.3eaccb93@hononegah-community-high-school.testing-teams.eduguideorg.podio.com](mailto:{1.3eaccb93@hononegah-community-high-school.testing-teams.eduguideorg.podio.com)}
+
+And Confirm Email Address
+
+And password
+
+And confirm password
+
+And Join Code (prepopulated)
+
+And Click "Join"
+
+Then I am added to the team
+
+And prompted to upload my avatar
+
+### Check that student has been successfully added to group
+
+[] Student has joined the team
+
+[] Student is a restricted member
+
+[] Student is a member of the {Purple Group}
+
+[] Student is subscribed to the {Core Learning} Path
+
+[] Students' subscription is for the current school year
+
